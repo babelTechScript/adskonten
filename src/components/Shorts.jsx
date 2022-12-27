@@ -9,13 +9,12 @@ export default function Shorts() {
         params: {
           part: 'snippet',
           channelId: 'UCq8tikfU-AE2GpbZF6YPQag',
-          maxResults: 10,
+          maxResults: 30,
           order: 'date',
           key: import.meta.env.VITE_YOUTUBE_API_KEY,
         },
       })
       .then((result) => {
-        console.log(result.data.items);
         setVideos(result.data.items);
       });
   }, []);

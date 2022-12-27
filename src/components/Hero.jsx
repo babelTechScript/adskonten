@@ -40,6 +40,19 @@ export default function Hero() {
           >
             subscribe
           </a>
+          {/* trakteer link */}
+          {/* <a
+            href='https://trakteer.id/adskonten/tip'
+            target='_blank'
+            className='flex justify-center pt-6'
+          >
+            <img
+              id='wse-buttons-preview'
+              src='https://cdn.trakteer.id/images/embed/trbtn-red-2.png'
+              alt='Trakteer Saya'
+              className='h-10'
+            />
+          </a> */}
         </div>
       </div>
     </div>
